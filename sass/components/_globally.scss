@@ -1,0 +1,32 @@
+// щбщие, глобальные стили
+
+body {
+   font-family: var(--basic-font-style);
+}
+
+// размеры контейнеров и отстуры секций
+
+.section {
+   padding: 94px 0;
+}
+
+.container {
+   width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+// сбросы стилей листов
+.info-block {
+   list-style: none;
+}
+
+// размеры картинок
+
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}

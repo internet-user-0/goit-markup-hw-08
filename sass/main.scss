@@ -1,0 +1,58 @@
+@import "./components/root-reset";
+
+// щбщие, глобальные стили
+@import "./components/globally";
+
+// скрытие елемента
+@import "./utils/pattern";
+
+// header навигация контакты
+@import "./components/header-navigation";
+
+// header список в хедере ниже
+@import "./components/header-list";
+
+// секция с кнопкой заказа
+@import "./components/main-btn";
+
+// секция преимуществ блоки текста, и картинок
+@import "./components/block-benefits";
+
+//  список картинок
+@import "./components/picture-list";
+
+// список учасников
+@import "./components/team-list";
+
+// текст под картинкой члена команды
+@import "./components/team-text";
+
+// контактная панель в списке учасников
+@import "./components/contact-panel";
+
+// постоянные клиенты
+@import "./components/clients";
+
+// подвал контакты
+@import "./components/footer-address";
+
+// панель ссылок контактов подвала
+@import "./components/footer-contact-panel";
+
+// блок подписки
+@import "./components/subscription";
+
+// модалное окно
+@import "./components/modal-window";
+
+// список контактной информации ползователя
+@import "./components/modal-window__contacts";
+
+// чекбокс в модальном окне
+@import "./components/modal-checkbox";
+
+// портфолио!!!!!!!!!
+@import "./componetns-portfolio/button-list";
+
+// список картинок в портфолио
+@import "./componetns-portfolio/picture-gallery";

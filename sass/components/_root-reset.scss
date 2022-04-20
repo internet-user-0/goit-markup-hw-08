@@ -1,0 +1,39 @@
+:root{
+   /* шрифты */
+   --basic-font-style: 'Roboto', sans-serif;
+   --secondary-font-style: 'Raleway', sans-serif;
+   /* цвет фона */
+   --basic-background: #ffffff;
+   --secondary-background: #2f303a;
+   /* цвет фона кнопок */
+   --background-btn:#f5f4fa;
+   --background-btn-hover:#2196f3;
+   /* цвета текста */
+   --color-text:#212121;
+   --color-text-two:#757575;
+   --color-text-link:#757575;
+   /* цвета текста (hover)*/
+   --color-text-btn: #2196f3;
+}
+
+/* сбросы отступов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+   margin: 0;
+}
+ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+// сбросы стилей листов 
+.list,
+.info-block{
+   list-style: none;
+}
