@@ -40,8 +40,8 @@
    color: var(--color-text-btn);
 }
 
-.nav{
-   @media (max-width: 480px) {
+.nav {
+   @media (max-width: 768px) {
       display: none;
    }
 }
