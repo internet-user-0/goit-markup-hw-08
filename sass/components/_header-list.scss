@@ -5,6 +5,10 @@
    margin-left: auto;
 
    list-style: none;
+
+   @media (max-width: 768px) {
+      display: none;
+   }
 }
 .contact__item {
    &:first-child {

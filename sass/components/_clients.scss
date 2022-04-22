@@ -4,20 +4,40 @@
    color: var(--color-text);
    font-style: normal;
    font-weight: 700;
-   font-size: 36px;
+   font-size: 28px;
    line-height: 1.2;
    letter-spacing: 0.03em;
 
    text-align: center;
+
+   @media (min-width: 1200px) {
+      font-size: 36px;
+   }
 }
 
 .companies-list {
+   margin-top: 30px;
+
    display: flex;
-   margin-top: 50px;
+   flex-wrap: wrap;
+
+   @media (min-width: 1200px) {
+      margin-top: 50px;
+      flex-wrap: nowrap;
+   }
 }
 .companies-list__item {
-   &:not(:last-child) {
+   &:not(:nth-child(2n)) {
       margin-right: 30px;
+   }
+   &:nth-child(n + 3) {
+      margin-top: 30px;
+   }
+
+   @media (min-width: 1200px) {
+      &:not(:last-child) {
+         margin-right: 30px;
+      }
    }
 }
 .companies-list__link {
@@ -25,7 +45,7 @@
    justify-content: center;
    align-items: center;
    text-decoration: none;
-   width: 170px;
+   width: 210px;
    height: 92px;
 
    border: 1px solid #afb1b8;
@@ -44,6 +64,11 @@
       border: 1px solid var(--background-btn-hover);
       fill: #2196f3;
       color: #2196f3;
+   }
+
+   @media (min-width: 1200px) {
+      width: 170px;
+      height: 92px;
    }
 }
 .companies-list__icon {
