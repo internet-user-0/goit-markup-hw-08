@@ -1,17 +1,10 @@
 //  панель ссылок в подвале
 
 .footer-item {
-   @media (min-width: 1200px) {
-      &:not(:first-child) {
-         margin-left: 70px;
-      }
+   &:not(:first-child) {
+      margin-left: 70px;
    }
 }
-
-.netvorks-panel-block{
-   margin-top: 60px;
-}
-
 .netvorks-panel__text {
    color: var(--color-text);
    font-style: normal;
@@ -23,10 +16,7 @@
    color: #ffffff;
 
    margin-bottom: 20px;
-
-   text-align: center;
 }
-
 .netvork-panel {
    display: flex;
    justify-content: center;
@@ -38,6 +28,11 @@
    }
 }
 
+.icon-item-minor {
+   &:not(:last-child) {
+      margin-right: 10px;
+   }
+}
 .netvork-panel__link {
    display: flex;
    align-items: center;
@@ -47,6 +42,7 @@
    height: 44px;
    border-radius: 50%;
    border: none;
+   border-radius: 50%;
    background: rgba(255, 255, 255, 0.1);
    fill: #ffffff;
    color: #ffffff;

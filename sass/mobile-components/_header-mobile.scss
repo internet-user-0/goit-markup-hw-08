@@ -1,0 +1,90 @@
+.header {
+   border-bottom: 1px solid #ececec;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.header__container {
+   @media screen and (max-width: 767px) {
+      max-width: 480px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+   }
+}
+
+.logo {
+   display: inline-block;
+   text-decoration: none;
+   color: var(--color-text);
+   font-family: var(--secondary-font-style);
+   font-style: normal;
+
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   letter-spacing: 0.03em;
+
+   padding-top: 16px;
+   padding-bottom: 16px;
+}
+
+.logo__span {
+   color: var(--color-text-btn);
+}
+
+.nav {
+   @media screen and (max-width: 767px) {
+      display: none;
+   }
+}
+.contact {
+   @media screen and (max-width: 767px) {
+      display: none;
+   }
+}
+
+
+
+// кнопка в хедере телефон
+.menu-btn {
+   position: relative;
+   margin-left: auto;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0;
+   width: 40px;
+   height: 40px;
+
+   background-color: transparent;
+   border: transparent;
+   outline: transparent;
+   z-index: 20;
+
+
+   &__icon {
+      width: 40px;
+      height: 40px;
+
+      &-open {
+         opacity: 1;
+      }
+
+      &-close {
+         opacity: 0;
+      }
+   }
+}
+
+.menu-btn.is-active .menu-btn__icon-open {
+   opacity: 0;
+}
+
+.menu-btn.is-active .menu-btn__icon-close {
+   opacity: 1;
+}

@@ -7,52 +7,65 @@
 @import "./utils/pattern";
 
 // header навигация контакты
-@import "./components/header-navigation";
+// @import "./components/header-navigation";
 
 // header список в хедере ниже
-@import "./components/header-list";
+// @import "./components/header-list";
 
 // секция с кнопкой заказа
-@import "./components/main-btn";
+// @import "./components/main-btn";
 
 // секция преимуществ блоки текста, и картинок
-@import "./components/block-benefits";
+// @import "./components/block-benefits";
 
 //  список картинок
-@import "./components/picture-list";
+// @import "./components/picture-list";
 
 // список учасников
-@import "./components/team-list";
+// @import "./components/team-list";
 
 // текст под картинкой члена команды
-@import "./components/team-text";
+// @import "./components/team-text";
 
 // контактная панель в списке учасников
-@import "./components/contact-panel";
+// @import "./components/contact-panel";
 
 // постоянные клиенты
-@import "./components/clients";
+// @import "./components/clients";
 
 // подвал контакты
-@import "./components/footer-address";
+// @import "./components/footer-address";
 
 // панель ссылок контактов подвала
-@import "./components/footer-contact-panel";
+// @import "./components/footer-contact-panel";
 
 // блок подписки
-@import "./components/subscription";
+// @import "./components/subscription";
 
 // модалное окно
-@import "./components/modal-window";
+// @import "./components/modal-window";
 
 // список контактной информации ползователя
-@import "./components/modal-window__contacts";
+// @import "./components/modal-window__contacts";
 
 // чекбокс в модальном окне
-@import "./components/modal-checkbox";
+// @import "./components/modal-checkbox";
 
 // портфолио!!!!!!!!!
-@import "./componetns-portfolio/button-list";
+// @import "./componetns-portfolio/button-list";
 
 // список картинок в портфолио
-@import "./componetns-portfolio/picture-gallery";
+// @import "./componetns-portfolio/picture-gallery";
+
+
+
+
+
+
+// стили для телефона
+
+@import "./mobile-components/header-mobile";
+
+// меню в телефоне 
+
+@import "./mobile-components/menu-mobile";

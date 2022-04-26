@@ -20,6 +20,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- стили -->
+    <link rel="stylesheet" href="./css/styles.css" />
     <!-- минифицированый вайл стилей -->
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>Document</title>
@@ -61,12 +62,29 @@
             >
           </li>
         </ul>
+        <!-- кнопка меню в телефоне -->
+        <button
+        class="menu-btn"
+        type="button"
+        aria-label="Кнопка открытия меню"
+        aria-expanded="false"
+        data-menu-button
+        >
+          <svg class="menu-btn__icon" width="40" height="40">
+            <use class="menu-btn__icon-open"
+              href="./images/sprite.svg#icon-menu_open">
+            </use>
+            <use class="menu-btn__icon-close"
+              href="./images/sprite.svg#icon-menu_close">
+            </use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- (main) basic information -->
     <main>
       <!-- контакты -->
-      <section class="heading">
+      <!-- <section class="heading">
         <div class="container">
           <h1 class="heading__title">
             Эффективные решения<br />
@@ -74,9 +92,9 @@
           </h1>
           <button data-modal-open type="button" class="heading__btn">Заказать услугу</button>
         </div>
-      </section>
+      </section> -->
       <!-- секция приемущeств -->
-      <section class="benefits section">
+      <!-- <section class="benefits section">
         <div class="container">
           <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="benefits__list">
@@ -126,7 +144,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- список картинок -->
       <!-- <section class="section-work section">
         <div class="container">
@@ -172,7 +190,7 @@
         </div>
       </section> -->
       <!-- список участников -->
-      <section class="section team">
+      <!-- <section class="section team">
         <div class="container">
           <h2 class="team__title">Наша команда</h2>
           <ul class="team-list">
@@ -181,6 +199,8 @@
                 class="team-list__image"
                 src="./images/employee(2).jpg"
                 alt="фото мужчины"
+                width="270"
+                height="260"
               />
               <div class="team-list__box">
                 <h3 class="team-list__name">Игорь Демьяненко</h3>
@@ -223,6 +243,8 @@
                 class="team-list__image"
                 src="./images/employee(1).jpg"
                 alt="фото женщины"
+                width="270"
+                height="260"
               />
               <div class="team-list__box">
                 <h3 class="team-list__name">Ольга Репина</h3>
@@ -264,6 +286,8 @@
                 class="team-list__image"
                 src="./images/employee(3).jpg"
                 alt="фото мужчины"
+                width="270"
+                height="260"
               />
               <div class="team-list__box">
                 <h3 class="team-list__name">Николай Тарасов</h3>
@@ -305,6 +329,8 @@
                 class="team-list__image"
                 src="./images/employee(4).jpg"
                 alt="фото мужчины"
+                width="270"
+                height="260"
               />
               <div class="team-list__box">
                 <h3 class="team-list__name">Михаил Ермаков</h3>
@@ -343,9 +369,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Постоянные клиенты -->
-      <section class="section">
+      <!-- <section class="section">
         <div class="container">
           <h2 class="section__title">Постоянные клиенты</h2>
           <ul class="companies-list">
@@ -394,9 +420,9 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
     <!-- подвал контактов -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container-footer container">
         <div class="footer-item footer-item--grow">
           <a href="" class="logo logo--color"><span class="logo__span">Web</span>Studio</a>
@@ -416,7 +442,7 @@
             </ul>
           </address>
         </div>
-        <div class="netvorks-panel-block">
+        <div class="netvorks-panel">
           <p class="netvorks-panel__text">присоединяйтесь</p>
           <ul class="netvork-panel">
             <li class="netvork-panel__item">
@@ -470,9 +496,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- модальное окно -->
-    <div data-modal class="backdrop is-hidden">
+    <!-- <div data-modal class="backdrop is-hidden">
       <div class="modal-window">
         <button data-modal-close class="modal-window__btn-close">
           <svg class="modal-window__icon">
@@ -541,7 +567,73 @@
           </form>
         </div>
       </div>
+    </div> -->
+    <!-- мобильное окно меню -->
+    <div class="mobile-overlay" data-menu>
+      <div class="mobile-menu">
+        <nav class="mobile-nav">
+          <ul class="mobile-nav__list list">
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link" href="">Студия</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link" href="">Портфолио</a>
+            </li>
+            <li class="mobile-nav__item">
+              <a class="mobile-nav__link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="mobile-menu-item">
+          <div class="mobile-menu__contacts">
+            <a class="mobile-menu__tel" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+            <a class="mobile-menu__mail" href="">info@devstudio.com</a>
+          </div>
+          <ul class="socials">
+            <li class="socials__item">
+              <a
+                class="socials__link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >Instagram</a
+              >
+            </li>
+            <li class="socials__item">
+              <a
+                class="socials__link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >Twitter</a
+              >
+            </li>
+            <li class="socials__item">
+              <a
+                class="socials__link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >Facebook</a
+              >
+            </li>
+            <li class="socials__item">
+              <a
+                class="socials__link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/fom-btn.js"></script>
   </body>
 </html>
