@@ -1,0 +1,54 @@
+// постоянные клиенты телефон
+
+.section__title {
+   color: var(--color-text);
+   font-style: normal;
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.companies-list {
+   display: flex;
+   flex-wrap: wrap;
+   margin: -15px;
+}
+.companies-list__item {
+   flex-basis: calc((100% - 4 * 15px) / 2);
+   margin: 15px;
+}
+.companies-list__link {
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   width: 100%;
+   height: 92px;
+
+   border: 1px solid #afb1b8;
+   box-sizing: border-box;
+   border-radius: 4px;
+
+   fill: #afb1b8;
+   color: #afb1b8;
+
+   transition-property: color, border, fill;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+   &:hover,
+   &:focus {
+      border: 1px solid var(--background-btn-hover);
+      fill: #2196f3;
+      color: #2196f3;
+   }
+}
+.companies-list__icon {
+   width: 106px;
+   height: 60px;
+   fill: currentColor;
+}

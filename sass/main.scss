@@ -57,15 +57,111 @@
 // список картинок в портфолио
 // @import "./componetns-portfolio/picture-gallery";
 
-
-
-
-
-
 // стили для телефона
 
 @import "./mobile-components/header-mobile";
 
-// меню в телефоне 
+// меню в телефоне
 
 @import "./mobile-components/menu-mobile";
+
+// стили хедера в таблетке
+
+@import "./tablet-components/header-tablet";
+
+// список в хедере с телефоном и почтой
+
+@import "./tablet-components/header-tablet-(2)";
+
+//  шапка на компютере))
+
+@import "./desctop-component/desctop-header";
+
+// список в хедере с телефоном и почтой на компютере
+
+@import "./desctop-component/desctop-header-(2)";
+
+// секция с кнопкой заказа
+
+@import "./mobile-components/mobile-heading";
+
+// модальное окно
+
+@import "./mobile-components/modil-window";
+
+// список контактной информации ползователя
+
+@import "./mobile-components/modile-window-content";
+
+// чекбокс в модальном окне
+
+@import "./mobile-components/mobile-check";
+
+// секция преимуществ блоки текста, и картинок
+
+@import "./mobile-components/mobile-benefits";
+
+// секция преимуществ блоки текста, и картинок в таблетке
+
+@import "./tablet-components/tablet-benefits";
+
+// секция преимуществ блоки текста, и картинок в компютере
+
+@import "./desctop-component/desctop-benefits";
+
+//  список картинок
+
+@import "./desctop-component/desctop-picture-list";
+
+// список учасников
+
+@import "./mobile-components/mobile-team-list";
+
+// текст под картинкой члена команды
+
+@import "./mobile-components/mobile-team-text";
+
+// панель ссылок на контакты в секции список учасников
+
+@import "./mobile-components/mobile-contact-panel";
+
+// список учасников
+
+@import "./tablet-components/tablet-team-list";
+
+// список учасников на компютере
+
+@import "./desctop-component/desctop-team-list";
+
+// постоянные клиенты телефон
+
+@import "./mobile-components/mobile-clients";
+
+// постоянные клиенты таблетка
+
+@import "./tablet-components/tablet-clients";
+
+// постоянные клиенты компютер
+
+@import "./desctop-component/desctop-clients";
+
+// подвал контакты телефон
+
+@import "./mobile-components/mobile-footer";
+
+//  панель ссылок в подвале телефон
+
+@import "./mobile-components/mobile-footer-panel";
+
+// блок подписки в подвале телефон
+
+@import "./mobile-components/mobile-subscription";
+
+// подвал контакты таблетка
+
+@import "./tablet-components/tablet-footer";
+
+// подвал контакты компютер
+
+@import "./desctop-component/desctop-footer";
+

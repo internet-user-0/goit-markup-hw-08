@@ -1,0 +1,70 @@
+// подвал контакты
+
+.footer {
+   background-color: var(--secondary-background);
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+
+.container-footer {
+   display: flex;
+   align-items: baseline;
+   flex-direction: column;
+   align-items: center;
+}
+
+.footer-item--grow {
+   flex-grow: 1;
+}
+
+.address{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.logo--color {
+   color: rgb(255, 255, 255);
+}
+
+.contact-list {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.contact-list__item {
+   @media screen and (max-width: 767px) {
+      margin-bottom: 60px;
+   }
+   &:not(:last-child) {
+      margin-bottom: 9px;
+   }
+}
+.contact-list__address {
+   color: #ffffff;
+   text-decoration: none;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+
+   transition-property: color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-list__link {
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.6);
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+
+   transition-property: color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

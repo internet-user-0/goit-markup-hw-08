@@ -10,13 +10,29 @@ body {
 //    padding: 94px 0;
 // }
 
-// .container {
-//    width: 1200px;
-//    padding-left: 15px;
-//    padding-right: 15px;
-//    margin-left: auto;
-//    margin-right: auto;
-// }
+.container {
+   max-width: 480px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+
+   @media screen and (min-width: 768px) {
+      min-width: 768px;
+   }
+
+   @media screen and (min-width: 1200px) {
+      min-width: 1200px;
+   }
+}
+
+.section{
+   padding: 60px 0;
+
+   @media screen and (min-width: 1200px) {
+      padding: 94px 0;
+   }
+}
 
 // сбросы стилей листов
 // .info-block {

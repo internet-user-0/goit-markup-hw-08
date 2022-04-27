@@ -1,0 +1,15 @@
+// список в хедере с телефоном и почтой на компютере                    
+
+.contact {
+   @media screen and (min-width: 1200px) {
+      flex-direction: row;
+      margin-left: auto;
+   }
+}
+.contact__item {
+   @media screen and (min-width: 1200px) {
+      &:first-child {
+         margin-right: 30px;
+      }
+   }
+}

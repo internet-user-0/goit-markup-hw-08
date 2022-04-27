@@ -1,0 +1,55 @@
+// панель ссылок на контакты в секции список учасников
+
+.netvork-list {
+   margin-top: 16px;
+
+   display: flex;
+   justify-content: center;
+}
+.netvork-list__item {
+   &:not(:last-child) {
+      margin-right: 10px;
+   }
+}
+
+.netvork-list__link {
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   margin-right: 10px;
+   border: none;
+   border-radius: 50%;
+   fill: #afb1b8;
+   color: #ffffff;
+
+   transition-property: background-color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+   &:hover,
+   &:focus {
+      background-color: var(--background-btn-hover);
+      fill: #ffffff;
+   }
+}
+.netvork-list__link:last-child {
+   margin-right: 0;
+}
+
+.netvork-list__svg {
+   transition-property: fill;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+   width: 20px;
+   height: 20px;
+
+   &:hover,
+   &:focus {
+      fill: currentColor;
+   }
+}

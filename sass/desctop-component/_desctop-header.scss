@@ -1,0 +1,24 @@
+//  шапка на компютере))
+
+.header__container {
+   @media screen and (min-width: 1200px) {
+      max-width: 1200px;
+   }
+}
+
+.logo {
+   @media screen and (min-width: 1200px) {
+      font-size: 26px;
+      line-height: 1.2;
+
+      padding-top: 24px;
+      padding-bottom: 25px;
+   }
+}
+
+.nav {
+   @media screen and (min-width: 1200px) {
+      margin-left: 93px;
+      margin-right: 0;
+   }
+}

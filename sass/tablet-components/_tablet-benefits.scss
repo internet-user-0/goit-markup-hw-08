@@ -1,0 +1,22 @@
+// секция преимуществ блоки текста, и картинок в таблетке
+
+.benefits__list {
+   @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -15px;
+   }
+}
+.benefits__item {
+   @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 4 * 15px) / 2);
+      margin: 15px;
+   }
+}
+
+.benefits__title {
+   @media screen and (min-width: 768px) {
+      text-align: left;
+   }
+}
+

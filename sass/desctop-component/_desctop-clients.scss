@@ -1,0 +1,7 @@
+// постоянные клиенты компютер
+
+.companies-list__item {
+   @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - 12 * 15px) / 6);
+   }
+}

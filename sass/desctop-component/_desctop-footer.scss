@@ -1,0 +1,70 @@
+// подвал контакты компютер
+
+.container-footer {
+   @media screen and (min-width: 1200px) {
+      flex-direction: row;
+      align-content: n;
+   }
+}
+
+.footer-item{
+   @media screen and (min-width: 1200px) {
+      margin-bottom: 0;
+   }
+}
+
+
+.address{
+   @media screen and (min-width: 1200px) {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-right: 70px;
+   }
+}
+
+.contact-list {
+   @media screen and (min-width: 1200px) {
+      flex-direction: column;
+      align-items: flex-start;
+   }
+}
+
+.netvorks-panel-block {
+   @media screen and (min-width: 1200px) {
+      align-items: flex-start;
+   }
+}
+
+.subscription{
+   @media screen and (min-width: 1200px) {
+      margin-left: auto;
+   }
+}
+
+
+.subscription__box {
+   @media screen and (min-width: 1200px) {
+      flex-direction: column;
+      align-items: flex-start;
+   }
+}
+
+.subscription__form {
+   @media screen and (min-width: 1200px) {
+      flex-direction: row;
+      align-items: flex-end;
+   }
+}
+
+.subscription__input {
+   @media screen and (min-width: 1200px) {
+      width: 358px;
+   }
+}
+
+.subscription__button {
+   @media screen and (min-width: 1200px) {
+      margin-top: 0;
+      margin-left: 12px;
+   }
+}

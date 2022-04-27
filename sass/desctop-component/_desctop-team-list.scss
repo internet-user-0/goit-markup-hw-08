@@ -1,0 +1,15 @@
+// список учасников
+
+.team-list {
+   @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -15px;
+   }
+}
+
+.team-list__item {
+   @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - 8 * 15px) / 4);
+   }
+}

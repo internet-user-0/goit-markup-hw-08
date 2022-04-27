@@ -1,0 +1,74 @@
+//  панель ссылок в подвале
+
+.footer-item {
+   &:not(:first-child) {
+      margin-left: 70px;
+   }
+}
+.netvorks-panel__text {
+   color: var(--color-text);
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 1.1;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #ffffff;
+
+   margin-bottom: 20px;
+}
+
+.netvorks-panel-block {
+   @media screen and (max-width: 767px) {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+   
+      margin-bottom: 60px;
+   }
+}
+.netvork-panel {
+   display: flex;
+   justify-content: center;
+}
+
+.netvork-panel__item {
+   &:not(:last-child) {
+      margin-right: 10px;
+   }
+}
+
+.icon-item-minor {
+   &:not(:last-child) {
+      margin-right: 10px;
+   }
+}
+.netvork-panel__link {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   border: none;
+   border-radius: 50%;
+   background: rgba(255, 255, 255, 0.1);
+   fill: #ffffff;
+   color: #ffffff;
+
+   transition-property: background-color;
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+   &:hover,
+   &:focus {
+      background-color: var(--background-btn-hover);
+      fill: #ffffff;
+   }
+}
+.netvork-panel__icon {
+   width: 20px;
+   height: 20px;
+}
