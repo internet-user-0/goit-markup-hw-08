@@ -1,0 +1,43 @@
+// секция кнопок на таблетке
+
+.list-basic {
+   @media screen and (min-width: 768px) {
+      justify-content: center;
+      margin-bottom: 30px;
+   }
+}
+
+// список картинок в портфолио на таблетке
+.list-info {
+   @media screen and (min-width: 768px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin: -15px;
+   }
+}
+.info-block-item {
+   @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 4 * 15px) / 2);
+      margin: 15px;
+   }
+   @media screen and (max-width: 1199px) {
+      &:nth-child(1){
+         height: 414px;
+      }
+   }
+}
+// секция кнопок на компютере
+
+.list-basic {
+   @media screen and (min-width: 1200px) {
+      margin-bottom: 50px;
+   }
+}
+
+// список картинок в портфолио на компютере
+
+.info-block-item {
+   @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - 6 * 15px) / 3);
+   }
+}

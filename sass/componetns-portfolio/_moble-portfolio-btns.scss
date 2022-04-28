@@ -1,15 +1,28 @@
-// секция кнопок
-.list-basic {
-   justify-content: center;
+// секция кнопок в портфолио телефон
 
-   margin-bottom: 50px;
+.list-basic {
    display: flex;
+
+   flex-wrap: wrap;
 }
+
 .list-item-nav {
    &:not(:last-child) {
       margin-right: 8px;
    }
+
+   @media screen and (max-width: 767px) {
+      &:nth-child(n + 4) {
+         margin-top: 15px;
+      }
+   }
+   @media screen and (max-width: 399px) {
+      &:nth-child(n + 3) {
+         margin-top: 15px;
+      }
+   }
 }
+
 .nav-btn {
    font-style: normal;
    font-weight: 500;
