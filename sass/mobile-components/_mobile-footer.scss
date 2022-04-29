@@ -6,21 +6,15 @@
    padding-bottom: 60px;
 }
 
-.container-footer {
-   display: flex;
-   align-items: baseline;
-   flex-direction: column;
-   align-items: center;
-}
-
 .footer-item--grow {
    flex-grow: 1;
 }
-
-.address{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+.footer-item{
+   margin-bottom: 60px;
+}
+.footer-box{
+   text-align: center;
+   margin-bottom: 60px;
 }
 
 
@@ -28,16 +22,7 @@
    color: rgb(255, 255, 255);
 }
 
-.contact-list {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
 .contact-list__item {
-   @media screen and (max-width: 767px) {
-      margin-bottom: 60px;
-   }
    &:not(:last-child) {
       margin-bottom: 9px;
    }

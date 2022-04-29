@@ -9,21 +9,20 @@
    background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/Header/Header-s-.jpg);
    @include mq(retina) {
-      background-image: url(../images/Header/Header-s-@2x.jpg);
+      background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header/Header-s-@2x.jpg);
    }
 
    @include mq(tablet) {
-      background-image: url(../images/Header/Header-m-.jpg);
+      background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header/Header-m-.jpg);
       @include mq(retina) {
-         background-image: url(../images/Header/Header-m-@2x.jpg);
+         background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header/Header-m-@2x.jpg);
       }
    }
 
-   @include mq(desctop) {
-      background-image: url(../images/Header/Header-L-.jpg);
+   @include mq(desktop) {
+      background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header/Header-L-.jpg);
       @include mq(retina) {
-         background-image: url(../images/Header/Header-L-@2x.jpg);
+         background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Header/Header-L-@2x.jpg);
       }
    }
-
 }

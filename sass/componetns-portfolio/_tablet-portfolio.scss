@@ -13,17 +13,13 @@
       flex-direction: row;
       flex-wrap: wrap;
       margin: -15px;
+      display: flex;
    }
 }
 .info-block-item {
    @media screen and (min-width: 768px) {
       flex-basis: calc((100% - 4 * 15px) / 2);
       margin: 15px;
-   }
-   @media screen and (max-width: 1199px) {
-      &:nth-child(1){
-         height: 414px;
-      }
    }
 }
 // секция кнопок на компютере

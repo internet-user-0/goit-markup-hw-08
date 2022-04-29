@@ -19,14 +19,7 @@
 }
 
 .netvorks-panel-block {
-   @media screen and (max-width: 767px) {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-
-      margin-bottom: 60px;
-   }
+   text-align: center;
 }
 .netvork-panel {
    display: flex;

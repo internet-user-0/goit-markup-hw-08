@@ -59,6 +59,10 @@
    &:focus {
       color: var(--color-text-btn);
    }
+
+   &--active{
+      color: #2196F3;
+   }
 }
 
 .mobile-menu__contacts {

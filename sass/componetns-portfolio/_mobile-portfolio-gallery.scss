@@ -1,16 +1,10 @@
 // список картинок в портфолио телефон
 .list-info {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-
    @media screen and (max-width: 768px) {
       margin-top: 40px;
    }
 }
 .info-block-item {
-   max-width: 450px;
-
    background: var(--basic-background);
    border: 1px solid #eeeeee;
 
@@ -24,7 +18,6 @@
 .info-item-btn {
    text-decoration: none;
    display: block;
-   padding-bottom: 20px;
 
    transition-property: box-shadow;
    transition-duration: 250ms;
@@ -74,9 +67,7 @@
    margin-top: 77px;
 }
 .info-txt {
-   margin-top: 20px;
-   margin-right: 24px;
-   margin-left: 24px;
+   padding: 20px 24px;
 }
 .info-item-name {
    color: var(--color-text);

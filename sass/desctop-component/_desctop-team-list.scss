@@ -8,6 +8,15 @@
    }
 }
 
+.team__title {
+   @media screen and (min-width: 1200px) {
+      font-size: 36px;
+      line-height: 1.2;
+   
+      margin-bottom: 50px;
+   }
+}
+
 .team-list__item {
    @media screen and (min-width: 1200px) {
       flex-basis: calc((100% - 8 * 15px) / 4);

@@ -20,7 +20,6 @@
       referrerpolicy="no-referrer"
     />
     <!-- стили -->
-    <link rel="stylesheet" href="./css/styles.css" />
     <!-- минифицированый вайл стилей -->
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>Document</title>
@@ -193,8 +192,8 @@
             <li class="team-list__item">
               <picture>
                 <source
-                  srcset="./images/Team/team-1-s-.jpg 1x, ./images/Team/team-1-s-@2x.jpg 2x"
-                  media="(max-width: 767px)"
+                  srcset="./images/Team/team-1-L-.jpg 1x, ./images/Team/team-1-L-@2x.jpg 2x"
+                  media="(min-width: 1200px)"
                   type="image/jpeg"
                 />
                 <source
@@ -203,16 +202,14 @@
                   type="image/jpeg"
                 />
                 <source
-                  srcset="./images/Team/team-1-L-.jpg 1x, ./images/Team/team-1-L-@2x.jpg 2x"
-                  media="(min-width: 1200px)"
+                  srcset="./images/Team/team-1-s-.jpg 1x, ./images/Team/team-1-s-@2x.jpg 2x"
+                  media="(max-width: 767px)"
                   type="image/jpeg"
                 />
                 <img
                   class="team-list__image"
                   src="./images/Team/team-1-L-.jpg"
                   alt="фото мужчины"
-                  width="100%"
-                  height="auto"
                 />
               </picture>
               <div class="team-list__box">
@@ -250,12 +247,11 @@
                 </ul>
               </div>
             </li>
-
             <li class="team-list__item">
               <picture>
                 <source
-                  srcset="./images/Team/team-2-s-.jpg 1x, ./images/Team/team-2-s-@2x.jpg 2x"
-                  media="(max-width: 767px)"
+                  srcset="./images/Team/team-2-L-.jpg 1x, ./images/Team/team-2-L-@2x.jpg 2x"
+                  media="(min-width: 1200px)"
                   type="image/jpeg"
                 />
                 <source
@@ -264,16 +260,14 @@
                   type="image/jpeg"
                 />
                 <source
-                  srcset="./images/Team/team-2-L-.jpg 1x, ./images/Team/team-2-L-@2x.jpg 2x"
-                  media="(min-width: 1200px)"
+                  srcset="./images/Team/team-2-s-.jpg 1x, ./images/Team/team-2-s-@2x.jpg 2x"
+                  media="(max-width: 767px)"
                   type="image/jpeg"
                 />
                 <img
                   class="team-list__image"
                   src="./images/Team/team-2-L-.jpg"
                   alt="фото мужчины"
-                  width="100%"
-                  height="auto"
                 />
               </picture>
               <div class="team-list__box">
@@ -314,8 +308,8 @@
             <li class="team-list__item">
               <picture>
                 <source
-                  srcset="./images/Team/team-3-s-.jpg 1x, ./images/Team/team-3-s-@2x.jpg 2x"
-                  media="(max-width: 767px)"
+                  srcset="./images/Team/team-3-L-.jpg 1x, ./images/Team/team-3-L-@2x.jpg 2x"
+                  media="(min-width: 1200px)"
                   type="image/jpeg"
                 />
                 <source
@@ -324,16 +318,14 @@
                   type="image/jpeg"
                 />
                 <source
-                  srcset="./images/Team/team-3-L-.jpg 1x, ./images/Team/team-3-L-@2x.jpg 2x"
-                  media="(min-width: 1200px)"
+                  srcset="./images/Team/team-3-s-.jpg 1x, ./images/Team/team-3-s-@2x.jpg 2x"
+                  media="(max-width: 767px)"
                   type="image/jpeg"
                 />
                 <img
                   class="team-list__image"
                   src="./images/Team/team-3-L-.jpg"
                   alt="фото мужчины"
-                  width="100%"
-                  height="auto"
                 />
               </picture>
               <div class="team-list__box">
@@ -374,8 +366,8 @@
             <li class="team-list__item">
               <picture>
                 <source
-                  srcset="./images/Team/team-4-s-.jpg 1x, ./images/Team/team-4-s-@2x.jpg 2x"
-                  media="(max-width: 767px)"
+                  srcset="./images/Team/team-4-L-.jpg 1x, ./images/Team/team-4-L-@2x.jpg 2x"
+                  media="(min-width: 1200px)"
                   type="image/jpeg"
                 />
                 <source
@@ -384,19 +376,16 @@
                   type="image/jpeg"
                 />
                 <source
-                  srcset="./images/Team/team-4-L-.jpg 1x, ./images/Team/team-4-L-@2x.jpg 2x"
-                  media="(min-width: 1200px)"
+                  srcset="./images/Team/team-4-s-.jpg 1x, ./images/Team/team-4-s-@2x.jpg 2x"
+                  media="(max-width: 767px)"
                   type="image/jpeg"
                 />
                 <img
                   class="team-list__image"
                   src="./images/Team/team-4-L-.jpg"
                   alt="фото мужчины"
-                  width="100%"
-                  height="auto"
                 />
               </picture>
-
               <div class="team-list__box">
                 <h3 class="team-list__name">Михаил Ермаков</h3>
                 <p class="team-list__text">UI Designer</p>
@@ -490,22 +479,24 @@
     <footer class="footer">
       <div class="container-footer container">
         <div class="footer-item footer-item--grow">
-          <address class="address">
-            <a href="" class="logo logo--color"><span class="logo__span">Web</span>Studio</a>
-            <ul class="contact-list">
-              <li class="contact-list__item">
-                <a class="contact-list__address" href="https://goo.gl/maps/fYbnDUNzqQSZUCWdA"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
-              </li>
-              <li class="contact-list__item">
-                <a class="contact-list__link" href="mailto:info@example.com">info@example.com</a>
-              </li>
-              <li class="contact-list__item">
-                <a class="contact-list__link" href="tel:+380991111111">+38 099 111 11 11</a>
-              </li>
-            </ul>
-          </address>
+          <div class="footer-box">
+            <a href="" class="logo logo--footer logo--color"><span class="logo__span">Web</span>Studio</a>
+            <address class="address">
+              <ul class="contact-list">
+                <li class="contact-list__item">
+                  <a class="contact-list__address" href="https://goo.gl/maps/fYbnDUNzqQSZUCWdA"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li class="contact-list__item">
+                  <a class="contact-list__link" href="mailto:info@example.com">info@example.com</a>
+                </li>
+                <li class="contact-list__item">
+                  <a class="contact-list__link" href="tel:+380991111111">+38 099 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
           <div class="netvorks-panel-block">
             <p class="netvorks-panel__text">присоединяйтесь</p>
             <ul class="netvork-panel">
@@ -641,7 +632,7 @@
         <nav class="mobile-nav">
           <ul class="mobile-nav__list list">
             <li class="mobile-nav__item">
-              <a class="mobile-nav__link" href="./index.html">Студия</a>
+              <a class="mobile-nav__link mobile-nav__link--active" href="./index.html">Студия</a>
             </li>
             <li class="mobile-nav__item">
               <a class="mobile-nav__link" href="./portfolio.html">Портфолио</a>
